@@ -17,5 +17,13 @@ elif operation == '-':
     print('{} - {} = '.format(num1, num2))
     print(num1 - num2)
 
+elif operation == '*':
+    print('{} * {} = '.format(num1, num2))
+    print(num1 * num2)
+
+elif operation == '/':
+    print('{} / {} = '.format(num1, num2))
+    print(num1 / num2)
+
 else:
     print('Вы не ввели правильный оператор, запустите программу еще раз.')
